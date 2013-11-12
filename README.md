@@ -16,16 +16,13 @@ representative recording. Methods also provide summary statistics about
 listings relevant to the species named in the request." 
 (Source: [Xeno-canto website](http://xeno-canto.org/))
 
+## /!\  No code released yet  /!\ ##
+Just started. Please be patient.
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style.
-Add unit tests for any new or changed functionality.
-Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
+### Release History
 12/11/13 xeno-canto inception
 
 
-## License
+### License
 Copyright (c) 2013 Patrick De Marta  
 Licensed under the [GNU GPL license](http://www.gnu.org/licenses/) .
