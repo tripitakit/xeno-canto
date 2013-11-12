@@ -34,8 +34,29 @@ exports['xeno-canto-api'] = {
 			test.ok(!!self);
 			test.equal(typeof(self), 'object');
 			test.equal(typeof(self.entity), 'object');
-			test.equal(self.entity.numRecordings, "28");
+			test.equal(self.entity.numRecordings, 28);
 			test.done();
 		});
 	},
+	
+	'advanced search bearded bellbird cnt:spain': function(test) {
+		test.expect(4);
+		var xeno_canto = new XenoCanto();
+		var query = {
+			name:'orthonyx',
+			country: 'papua',
+			location: 'tari'
+		};
+		
+		xeno_canto.search(query, function(self){
+			test.ok(!!self);
+			test.equal(typeof(self), 'object');
+			test.equal(typeof(self.entity), 'object');
+			test.equal(self.entity.numRecordings, 3);
+			test.done();
+		});
+	},
+	
+	
+	
 };

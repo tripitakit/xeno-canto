@@ -1,6 +1,7 @@
-# xeno-canto
+# xeno-canto.js
 
-Node.js implementation of Xeno-canto API 2.0
+Node.js implementation of xeno-canto API 2.0
+Easy simple/advanced searches against xeno-canto database.
 
 "The service provides a database of bird song and sound recordings contributed 
 and maintained by enthusiasts worldwide.It provides access to search the
@@ -14,7 +15,7 @@ maintained by the service for that species, either with or without URLs for
 audio and still image files, or optionally a request can retrieve a single
 representative recording. Methods also provide summary statistics about
 listings relevant to the species named in the request." 
-(Source: [Xeno-canto website](http://xeno-canto.org/))
+
 
 ## Installation
 ```
@@ -27,13 +28,13 @@ $ npm install xeno-canto
 var XenoCanto = require('xeno-canto');
 
 
-/** A simple search with English common name*/
-var xeno_canto = new XenoCanto();
+/** A simple search with English common name */
+var beardedBellbird = new XenoCanto();
 
 /* the callback is passed a reference of the instance, when search is complete;
    the response json object is stored in the instance's property .entity */
 	 
-xeno_canto.search("bearded bellbird", function(self){
+beardedBellbird.search("bearded bellbird", function(self){
 	console.log(self.entity.numRecordings == "28");
 	console.log(self.entity.numSpecies == "1");
 	// inspect more properties ..
@@ -66,10 +67,48 @@ xeno_canto.search("bearded bellbird", function(self){
 - url: the URL specifying the details of this recording
 
 
+```javascript
+/** Advanced search */
+
+var orthonyxPaupuaTari = new XenoCanto();
+
+var query = {
+	name:'orthonyx',
+	country: 'papua',
+	location: 'tari'
+};
+
+orthonyxPaupuaTari.search(query, function(self){
+	// inspect the response object
+	console.log(self.entity);
+});
+ 
+```
+**Advanced search parameters**
+
+* name [string]  commong english name, scientific name, or family latin name
+* genus [string] 
+* recordist [string] recordist name
+* country [string] 
+* location: [string]
+* remarks: [string]
+* coords: [object] {lat [string], lon [string]}
+* also: [string]
+* type: [string]
+* nr: [string] catalog number 
+* quality: [string]
+* qualitylt: [string] quality less than
+* area: [string]
+```
+
+## Reference
+####[xeno-canto.org](http://xeno-canto.org/)
 
 
 ### Release History
-12/11/13 xeno-canto inception, basic search 0.0.1
+
+* 0.0.2 Implements advanced searches.
+* 12/11/13 xeno-canto inception, basic search 0.0.1
 
 
 ### License

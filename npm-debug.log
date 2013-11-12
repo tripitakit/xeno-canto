@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/patrick/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz
+12 verbose folder .
+13 info prepublish xeno-canto@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/patrick/.npm/1f1177db-tar.lock
+16 silly lockFile e8631359-5117-0-34858209593221545-tmp-tgz tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz
+17 verbose lock tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz /Users/patrick/.npm/e8631359-5117-0-34858209593221545-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile e8631359-5117-0-34858209593221545-tmp-tgz tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz
+21 silly lockFile e8631359-5117-0-34858209593221545-tmp-tgz tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz
+22 verbose tar unpack /var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz
+23 silly lockFile 5ffbb325-5117-0-34858209593221545-package tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package
+24 verbose lock tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package /Users/patrick/.npm/5ffbb325-5117-0-34858209593221545-package.lock
+25 silly lockFile e8631359-5117-0-34858209593221545-tmp-tgz tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz
+26 verbose lock tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz /Users/patrick/.npm/e8631359-5117-0-34858209593221545-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry Gruntfile.js
+32 silly gunzTarPerm extractEntry .jshintrc
+33 silly gunzTarPerm extractEntry LICENSE-GNU-GPL
+34 silly gunzTarPerm extractEntry lib/xeno-canto.js
+35 silly gunzTarPerm extractEntry test/xeno-canto_test.js
+36 silly lockFile 5ffbb325-5117-0-34858209593221545-package tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package
+37 silly lockFile 5ffbb325-5117-0-34858209593221545-package tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package
+38 silly lockFile e8631359-5117-0-34858209593221545-tmp-tgz tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz
+39 silly lockFile e8631359-5117-0-34858209593221545-tmp-tgz tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/tmp.tgz
+40 verbose tar pack [ '/Users/patrick/.npm/xeno-canto/0.0.1/package.tgz',
+40 verbose tar pack   '/var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package' ]
+41 verbose tarball /Users/patrick/.npm/xeno-canto/0.0.1/package.tgz
+42 verbose folder /var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package
+43 silly lockFile 5ffbb325-5117-0-34858209593221545-package tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package
+44 verbose lock tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package /Users/patrick/.npm/5ffbb325-5117-0-34858209593221545-package.lock
+45 silly lockFile db808752-npm-xeno-canto-0-0-1-package-tgz tar:///Users/patrick/.npm/xeno-canto/0.0.1/package.tgz
+46 verbose lock tar:///Users/patrick/.npm/xeno-canto/0.0.1/package.tgz /Users/patrick/.npm/db808752-npm-xeno-canto-0-0-1-package-tgz.lock
+47 silly lockFile 5ffbb325-5117-0-34858209593221545-package tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package
+48 silly lockFile 5ffbb325-5117-0-34858209593221545-package tar:///var/folders/y3/qmpj3l297qd1pjj3w8rw6l8r0000gn/T/npm-54001/1384268315117-0.34858209593221545/package
+49 silly lockFile db808752-npm-xeno-canto-0-0-1-package-tgz tar:///Users/patrick/.npm/xeno-canto/0.0.1/package.tgz
+50 silly lockFile db808752-npm-xeno-canto-0-0-1-package-tgz tar:///Users/patrick/.npm/xeno-canto/0.0.1/package.tgz
+51 silly lockFile 09ee0fd3-ick-npm-xeno-canto-0-0-1-package /Users/patrick/.npm/xeno-canto/0.0.1/package
+52 verbose lock /Users/patrick/.npm/xeno-canto/0.0.1/package /Users/patrick/.npm/09ee0fd3-ick-npm-xeno-canto-0-0-1-package.lock
+53 silly lockFile 09ee0fd3-ick-npm-xeno-canto-0-0-1-package /Users/patrick/.npm/xeno-canto/0.0.1/package
+54 silly lockFile 09ee0fd3-ick-npm-xeno-canto-0-0-1-package /Users/patrick/.npm/xeno-canto/0.0.1/package
+55 verbose tar unpack /Users/patrick/.npm/xeno-canto/0.0.1/package.tgz
+56 silly lockFile 5fbf9c15-ick-npm-xeno-canto-0-0-1-package tar:///Users/patrick/.npm/xeno-canto/0.0.1/package
+57 verbose lock tar:///Users/patrick/.npm/xeno-canto/0.0.1/package /Users/patrick/.npm/5fbf9c15-ick-npm-xeno-canto-0-0-1-package.lock
+58 silly lockFile db808752-npm-xeno-canto-0-0-1-package-tgz tar:///Users/patrick/.npm/xeno-canto/0.0.1/package.tgz
+59 verbose lock tar:///Users/patrick/.npm/xeno-canto/0.0.1/package.tgz /Users/patrick/.npm/db808752-npm-xeno-canto-0-0-1-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm extractEntry Gruntfile.js
+65 silly gunzTarPerm extractEntry .jshintrc
+66 silly gunzTarPerm extractEntry LICENSE-GNU-GPL
+67 silly gunzTarPerm extractEntry lib/xeno-canto.js
+68 silly gunzTarPerm extractEntry test/xeno-canto_test.js
+69 silly lockFile 5fbf9c15-ick-npm-xeno-canto-0-0-1-package tar:///Users/patrick/.npm/xeno-canto/0.0.1/package
+70 silly lockFile 5fbf9c15-ick-npm-xeno-canto-0-0-1-package tar:///Users/patrick/.npm/xeno-canto/0.0.1/package
+71 silly lockFile db808752-npm-xeno-canto-0-0-1-package-tgz tar:///Users/patrick/.npm/xeno-canto/0.0.1/package.tgz
+72 silly lockFile db808752-npm-xeno-canto-0-0-1-package-tgz tar:///Users/patrick/.npm/xeno-canto/0.0.1/package.tgz
+73 verbose chmod /Users/patrick/.npm/xeno-canto/0.0.1/package.tgz 644
+74 verbose chown /Users/patrick/.npm/xeno-canto/0.0.1/package.tgz [ 501, 20 ]
+75 silly lockFile 3a52ce78- .
+76 silly lockFile 3a52ce78- .
+77 silly publish { name: 'xeno-canto',
+77 silly publish   description: 'Node.js API for xeno-canto database webservices',
+77 silly publish   version: '0.0.1',
+77 silly publish   homepage: '',
+77 silly publish   author: { name: 'tripitakit', email: 'patrick.demarta@gmail.com' },
+77 silly publish   repository: { type: 'git', url: 'https://github.com/tripitakit/xeno-canto' },
+77 silly publish   bugs: { url: 'https://github.com/tripitakit/xeno-canto/issues' },
+77 silly publish   licenses: [ { type: 'GNU GPL', url: 'http://www.gnu.org/licenses/' } ],
+77 silly publish   main: 'lib/xeno-canto',
+77 silly publish   engines: { node: '>= 0.8.0' },
+77 silly publish   scripts: { test: 'grunt nodeunit' },
+77 silly publish   devDependencies:
+77 silly publish    { 'grunt-contrib-jshint': '~0.6.4',
+77 silly publish      'grunt-contrib-nodeunit': '~0.2.0',
+77 silly publish      'grunt-contrib-watch': '~0.5.3',
+77 silly publish      grunt: '~0.4.1' },
+77 silly publish   dependencies: { rest: '~1.0.0' },
+77 silly publish   directories: [ 'lib', 'test' ],
+77 silly publish   keywords:
+77 silly publish    [ 'bird',
+77 silly publish      'sound',
+77 silly publish      'database',
+77 silly publish      'webservice',
+77 silly publish      'api',
+77 silly publish      'science',
+77 silly publish      'biology',
+77 silly publish      'zoology',
+77 silly publish      'bioinformatics' ],
+77 silly publish   readme: '# xeno-canto.js\n\nNode.js implementation of xeno-canto API 2.0\nEasy simple/advanced searches against xeno-canto database.\n\n"The service provides a database of bird song and sound recordings contributed \nand maintained by enthusiasts worldwide.It provides access to search the\nconnection and play or download recordings and to submit new recordings.\nDiscussion forums encourage interactions among members of the birding community \nto exchange information about bird song and related topics.\n\nAPI methods support search against the database by specifying the formal Latin \nname of a bird species. Returned data provide listings of all recordings \nmaintained by the service for that species, either with or without URLs for\naudio and still image files, or optionally a request can retrieve a single\nrepresentative recording. Methods also provide summary statistics about\nlistings relevant to the species named in the request." \n\n\n## Installation\n```\n$ npm install xeno-canto\n```\n## Usage\n```javascript\n\n/** Dependencies */\nvar XenoCanto = require(\'xeno-canto\');\n\n\n/** A simple search with English common name */\nvar beardedBellbird = new XenoCanto();\n\n/* the callback is passed a reference of the instance, when search is complete;\n   the response json object is stored in the instance\'s property .entity */\n\t \nbeardedBellbird.search("bearded bellbird", function(self){\n\tconsole.log(self.entity.numRecordings == "28");\n\tconsole.log(self.entity.numSpecies == "1");\n\t// inspect more properties ..\n});\n\n```\n**Response Properties**\n\n- numRecordings: the total number of recordings found for this query\n- numSpecies: the total number of species found for this query\n- page: the page number of the results page that is being displayed\n- numPages: the total number of pages available for this query\n- recordings: an array of recording objects, described in detail below\n\n\n**Recording object properties**\n\n- id: the catalogue number of the recording on xeno-canto\n- gen: the generic name of the species\n- sp: the specific name of the species\n- en: the English name of the species\n- rec: the name of the recordist\n- cnt: the country where the recording was made\n- loc: the name of the locality\n- lat: the latitude of the recording in decimal coordinates\n- lng: the longitude of the recording in decimal coordinates\n- type: the sound type of the recording (e.g. \'call\', \'song\', etc). This is generally a comma-separated list of sound types.\n- file: the URL to the audio file\n- lic: the URL describing the license of this recording\n- url: the URL specifying the details of this recording\n\n\n```javascript\n/** Advanced search */\n\nvar orthonyxPaupuaTari = new XenoCanto();\n\nvar query = {\n\tname:\'orthonyx\',\n\tcountry: \'papua\',\n\tlocation: \'tari\'\n};\n\northonyxPaupuaTari.search(query, function(self){\n\tconsole.log(self.entity.numRecordings);\n\tconsole.log(self.entity.numSpecies);\n\t// inspect more properties ..\n});\n \n```\n**Advanced search parameters**\n\n* name [string]  commong english name, scientific name, or family latin name\n* genus [string] \n* recordist [string] recordist name\n* country [string] \n* location: [string]\n* remarks: [string]\n* coords: [object] {lat [string], lon [string]}\n* also: [string]\n* type: [string]\n* nr: [string] catalog number \n* quality: [string]\n* qualitylt: [string] quality less than\n* area: [string]\n```\n\n## Reference\n####[xeno-canto.org](http://xeno-canto.org/)\n\n\n### Release History\n\n* 0.0.2 Implements advanced searches.\n* 12/11/13 xeno-canto inception, basic search 0.0.1\n\n\n### License\nCopyright (c) 2013 Patrick De Marta  \nLicensed under the [GNU GPL license](http://www.gnu.org/licenses/) .\n',
+77 silly publish   readmeFilename: 'README.md',
+77 silly publish   _id: 'xeno-canto@0.0.1',
+77 silly publish   dist: { shasum: '4f3e6b4ab0abc06ae99aa55abe211d7bc471be51' },
+77 silly publish   _from: '.' }
+78 verbose url raw xeno-canto
+79 verbose url resolving [ 'https://registry.npmjs.org/', './xeno-canto' ]
+80 verbose url resolved https://registry.npmjs.org/xeno-canto
+81 info trying registry request attempt 1 at 15:58:42
+82 http PUT https://registry.npmjs.org/xeno-canto
+83 http 409 https://registry.npmjs.org/xeno-canto
+84 verbose url raw xeno-canto
+85 verbose url resolving [ 'https://registry.npmjs.org/', './xeno-canto' ]
+86 verbose url resolved https://registry.npmjs.org/xeno-canto
+87 info trying registry request attempt 1 at 15:58:43
+88 http GET https://registry.npmjs.org/xeno-canto
+89 http 200 https://registry.npmjs.org/xeno-canto
+90 error publish fail Cannot publish over existing version.
+90 error publish fail Update the 'version' field in package.json and try again.
+90 error publish fail
+90 error publish fail If the previous version was published in error, see:
+90 error publish fail     npm help unpublish
+90 error publish fail
+90 error publish fail To automatically increment version numbers, see:
+90 error publish fail     npm help version
+91 error System Darwin 12.5.0
+92 error command "node" "/usr/local/bin/npm" "publish"
+93 error cwd /Users/patrick/projects/nodes/xeno-canto
+94 error node -v v0.10.13
+95 error npm -v 1.3.2
+96 error code EPUBLISHCONFLICT
+97 verbose exit [ 1, true ]
