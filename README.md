@@ -48,7 +48,8 @@ xeno_canto.search("bearded bellbird", function(self){
 - numPages: the total number of pages available for this query
 - recordings: an array of recording objects, described in detail below
 
-**Recording object properties
+
+**Recording object properties**
 
 - id: the catalogue number of the recording on xeno-canto
 - gen: the generic name of the species
