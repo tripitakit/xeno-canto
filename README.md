@@ -28,4 +28,4 @@ Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## License
 Copyright (c) 2013 Patrick De Marta  
-Licensed under the GNU GPL license.
+Licensed under the [GNU GPL license](http://www.gnu.org/licenses/) .
