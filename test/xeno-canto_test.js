@@ -1,6 +1,6 @@
 'use strict';
 
-var xeno_canto = require('../lib/xeno-canto.js');
+var XenoCanto = require('../lib/xeno-canto.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -22,15 +22,20 @@ var xeno_canto = require('../lib/xeno-canto.js');
     test.ifError(value)
 */
 
-exports['awesome'] = {
-  setUp: function(done) {
-    // setup here
-    done();
-  },
-  'no args': function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(xeno_canto.awesome(), 'awesome', 'should be awesome.');
-    test.done();
-  },
+exports['xeno-canto-api'] = {
+	setUp: function(done) {
+		done();
+	},
+
+	'search bearded bellbird returns 28 recordings': function(test) {
+		test.expect(4);
+		var xeno_canto = new XenoCanto();
+		xeno_canto.search("bearded bellbird", function(self){
+			test.ok(!!self);
+			test.equal(typeof(self), 'object');
+			test.equal(typeof(self.entity), 'object');
+			test.equal(self.entity.numRecordings, "28");
+			test.done();
+		});
+	},
 };
