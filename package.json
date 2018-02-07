@@ -1,7 +1,7 @@
 {
   "name": "xeno-canto",
   "description": "Node.js API for xeno-canto database webservices",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "homepage": "",
   "author": {
     "name": "tripitakit",
@@ -34,7 +34,7 @@
     "grunt": "~0.4.1"
   },
   "dependencies": {
-    "rest": "~1.0.0"
+    "request": "~2.83.0"
   },
   "directories" : ["lib", "test"],
   "keywords": ["bird","sound","database","webservice","api",

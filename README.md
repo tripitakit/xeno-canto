@@ -35,8 +35,8 @@ var beardedBellbird = new XenoCanto();
    the response json object is stored in the instance's property .entity */
 	 
 beardedBellbird.search("bearded bellbird", function(self){
-	console.log(self.entity.numRecordings == "28");
-	console.log(self.entity.numSpecies == "1");
+	console.log("numRecordings: " + self.entity.numRecordings);
+	console.log("numSpecies: " + self.entity.numSpecies);
 	// inspect more properties ..
 });
 
@@ -106,7 +106,8 @@ orthonyxPaupuaTari.search(query, function(self){
 
 
 ### Release History
-
+* 07/02/2018 - v0.0.4 Fixing communication with xeno-canto api - Thanks @camilokorea
+* 07/03/14 - v0.0.3 Adjust API endpoint - Thanks @rowanoulton 
 * 0.0.2 Implements advanced searches.
 * 12/11/13 xeno-canto inception, basic search 0.0.1
 
