@@ -1,18 +1,14 @@
 {
   "name": "xeno-canto",
   "description": "Node.js API for xeno-canto database webservices",
-  "version": "0.0.4",
-  "homepage": "",
-  "author": {
-    "name": "tripitakit",
-    "email": "patrick.demarta@gmail.com"
-  },
+  "version": "0.0.5",
+  "homepage": "https://github.com/UncleSamulus/xeno-canto",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tripitakit/xeno-canto"
+    "url": "https://github.com/UncleSamulus/xeno-canto"
   },
   "bugs": {
-    "url": "https://github.com/tripitakit/xeno-canto/issues"
+    "url": "https://github.com/UncleSamulus/xeno-canto/issues"
   },
   "licenses": [
     {
@@ -21,22 +17,31 @@
     }
   ],
   "main": "lib/xeno-canto",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
   "scripts": {
     "test": "grunt nodeunit"
   },
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.1"
-  },
   "dependencies": {
-    "request": "~2.83.0"
+    "request": "^2.88.2"
   },
-  "directories" : ["lib", "test"],
-  "keywords": ["bird","sound","database","webservice","api",
-	  "science", "biology", "zoology", "bioinformatics"]
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-nodeunit": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "directories": [
+    "lib",
+    "test"
+  ],
+  "keywords": [
+    "bird",
+    "sound",
+    "database",
+    "webservice",
+    "api",
+    "science",
+    "biology",
+    "zoology",
+    "bioinformatics"
+  ]
 }
