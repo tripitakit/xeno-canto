@@ -82,8 +82,8 @@ orthonyxPaupuaTari.search(query, function(self){
 	// inspect the response object
 	console.log(self.entity);
 });
- 
 ```
+
 **Advanced search parameters**
 
 * name [string]  commong english name, scientific name, or family latin name
@@ -99,19 +99,16 @@ orthonyxPaupuaTari.search(query, function(self){
 * quality: [string]
 * qualitylt: [string] quality less than
 * area: [string]
-```
+## References
+- [xeno-canto.org](http://xeno-canto.org/)
 
-## Reference
-####[xeno-canto.org](http://xeno-canto.org/)
-
-
-### Release History
+## Release History
 * 07/02/2018 - v0.0.4 Fixing communication with xeno-canto api - Thanks @camilokorea
 * 07/03/14 - v0.0.3 Adjust API endpoint - Thanks @rowanoulton 
 * 0.0.2 Implements advanced searches.
 * 12/11/13 xeno-canto inception, basic search 0.0.1
 
+## License
 
-### License
-Copyright (c) 2013 Patrick De Marta  
+Copyright (c) 2013 Patrick De Marta
 Licensed under the [GNU GPL license](http://www.gnu.org/licenses/) .
