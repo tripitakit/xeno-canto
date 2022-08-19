@@ -103,10 +103,11 @@ orthonyxPaupuaTari.search(query, function(self){
 - [xeno-canto.org](http://xeno-canto.org/)
 
 ## Release History
+* 19/08/2022 - Update dependencies and fix tests to suit to newly xeno-canto collected recordings - Thanks UncleSamulus
 * 07/02/2018 - v0.0.4 Fixing communication with xeno-canto api - Thanks @camilokorea
-* 07/03/14 - v0.0.3 Adjust API endpoint - Thanks @rowanoulton 
+* 07/03/2014 - v0.0.3 Adjust API endpoint - Thanks @rowanoulton 
 * 0.0.2 Implements advanced searches.
-* 12/11/13 xeno-canto inception, basic search 0.0.1
+* 12/11/2013 xeno-canto inception, basic search 0.0.1
 
 ## License
 
